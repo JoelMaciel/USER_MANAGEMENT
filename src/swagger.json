@@ -1,0 +1,12 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "User Management Documentation",
+    "description": "User Management Documentation with all specifications",
+    "version": "1.0.o",
+    "contact": {
+      "name": "Joel Maciel",
+      "email": "joel@gmail.com"
+    }
+  }
+}
