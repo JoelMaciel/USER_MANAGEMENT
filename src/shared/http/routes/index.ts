@@ -6,6 +6,6 @@ routes.get('/', (request, response) => {
   return response.json({ message: 'Joel' });
 });
 
-routes.use('/roles', rolesRouter);
+routes.use('/api/roles', rolesRouter);
 
 export { routes };
