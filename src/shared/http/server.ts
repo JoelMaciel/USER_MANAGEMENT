@@ -2,7 +2,7 @@ import 'dotenv/config';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import { routes } from './routes';
-import { AppError } from '@shared/errors/AppError';
+import { AppError } from '../errors/AppError';
 
 const app = express();
 app.use(cors());
