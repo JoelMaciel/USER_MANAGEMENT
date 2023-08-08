@@ -1,5 +1,5 @@
 import { RolesRepository } from '../../repositories/RolesRepository';
-import { CreateRolesUseCase } from './CreateRoelUseCase';
+import { CreateRolesUseCase } from './CreateRoleUseCase';
 import { CreateRoleController } from './CreateRoleController';
 
 const rolesRepository = new RolesRepository();
